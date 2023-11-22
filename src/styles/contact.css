@@ -1,0 +1,10 @@
+.footer {
+    background: lightgreen;
+    height: 80px;
+}
+.main {
+    text-align: left;
+    background: deepskyblue;
+    height: 300px;
+    font-size: 24px;
+}
