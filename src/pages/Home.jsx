@@ -52,12 +52,25 @@ const Home = () => {
               }}
             >
               <div className="profilePix">
-              <img className="profile-img" src={Pix} alt="..." />
-              <div>
-                <h5>Je suis <span> Didier MABA</span></h5>
-                <p>En quête d'une opportunité de stage</p>
-                </div>
+                <img className="profile-img" src={Pix} alt="..." />
+                <div>
+                  <h5>
+                    Mon nom est <span> Didier MABA</span>
+                  </h5>
+                  <p>
+                    Je suis actuellement à la recherche d'une opportunité de
+                    stage en distanciel ou en présentiel.
+                  </p>
+                  <p>
+                    J'aurais le plaisir de mettre en pratique mes skills et
+                    surtout d'apprendre avec vous.{" "}
+                  </p>
+                <div className="CV">
+                
+                <button><a href="./assets/Didier_Maba_CV (1).pdf" download class="btn"> Télécharger mon CV</a></button>
             </div>
+                </div>
+              </div>
               CONCEPTEUR DEVELOPPEUR D'APPLICATION
             </motion.h1>
             <motion.h2

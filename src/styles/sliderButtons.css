@@ -1,4 +1,4 @@
-.scroll-bottom a {
+.slider-bottom a {
       position: absolute;
       transform: translate(-50%, -50%);
       top: 50%;
@@ -9,7 +9,7 @@
       padding: 0 14px;
   
 }
-.scroll-bottom:hover {
+.slider-bottom:hover {
         font-size: 4rem;
      }
   

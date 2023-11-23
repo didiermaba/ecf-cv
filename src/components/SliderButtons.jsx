@@ -5,7 +5,7 @@ import "../styles/sliderButtons.css";
 const SliderButtons = (props) => {
   console.log(props);
   return (
-    <div className="scroll-bottom">
+    <div className="slider-bottom">
       {props.left && (
         <NavLink to={props.left} className="left hover">
           <span>&#10092;</span>
