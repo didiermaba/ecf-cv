@@ -1,0 +1,23 @@
+.experience {
+    position: relative;
+    width: 50%;
+    background-color: #ece7e7;
+    margin: 15px 65px;
+    padding: 15px 25px;
+    margin-top: 10%;
+    border-radius: 7px;
+}
+.expe-title {
+    text-align: center;
+    background-color: #97d6ef;
+    color: #fff;
+    /* font-weight: 400; */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+.expe-item {
+    width: 100%;
+    margin: 15px 0; 
+    padding: 0 15px;
+}

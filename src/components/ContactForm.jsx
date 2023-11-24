@@ -52,7 +52,7 @@ const ContactForm = () => {
 
   return (
     <div className="form-container">
-      <h2>Contactez-moi</h2>
+      <h1>Contactez-moi</h1><br />
       <form ref={form} onSubmit={sendEmail} className="form-content">
         <label>Nom</label>
         <input type="text" name="name" required autoComplete="off" id="name" />

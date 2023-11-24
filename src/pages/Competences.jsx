@@ -5,6 +5,7 @@ import SocialNetWork from "../components/socialNetWork";
 import SliderButtons from "../components/sliderButtons";
 import "../styles/competences.css"
 import SkillsBar from "../components/SkillsBar";
+import ExperiencePro from "../components/ExperiencePro";
 
 
 const Competences = () => {
@@ -16,8 +17,8 @@ const Competences = () => {
         <SocialNetWork />
 
         <SliderButtons left={"/"} right={"/portfolio"}/>
-      
         <SkillsBar />
+        <ExperiencePro />
       </div>
     </div>
   );
