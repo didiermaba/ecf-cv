@@ -28,7 +28,7 @@ const ContactForm = () => {
       .then(
         (res) => {
           console.log(res.text);
-          form.current.reset(); // pr réinitialiser les input
+          form.current.reset(); // pr réinitialiser les inputs
           formMess.innerHTML = "<p class='success'>Message envoyé !</p>";
 
           setTimeout(() => {

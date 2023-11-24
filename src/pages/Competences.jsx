@@ -3,17 +3,21 @@ import Navigation from "../components/Navigation";
 import Mouse from "../components/Mouse";
 import SocialNetWork from "../components/socialNetWork";
 import SliderButtons from "../components/sliderButtons";
+import "../styles/competences.css"
+import SkillsBar from "../components/SkillsBar";
+
 
 const Competences = () => {
   return (
-    <div>
+    <div className="elt">
       <Mouse />
       <Navigation />
       <div className="home">
-        <h1>Compétences</h1>
         <SocialNetWork />
 
         <SliderButtons left={"/"} right={"/portfolio"}/>
+      
+        <SkillsBar />
       </div>
     </div>
   );

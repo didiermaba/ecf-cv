@@ -27,7 +27,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="elt">
       <Mouse />
       <Navigation />
       <motion.div

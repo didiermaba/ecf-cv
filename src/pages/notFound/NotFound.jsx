@@ -1,11 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Navigation from '../../components/Navigation';
+import "./notFound.css"
 
 const NotFound = () => {
     return (
-        <div className='notFound'>
-            <Navigation />
+        <div className='notFound'>           
             <div className="notFound-countent">
                 <h2>Erreur 404</h2>
                 <NavLink to="/">

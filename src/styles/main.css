@@ -3,6 +3,7 @@
     font-family: 'Archivo', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
+    height: 100%;
   
     /*Font adjustment*/
     font-synthesis: none;
@@ -40,6 +41,12 @@
     background-color: #F9F9F9;
     color: #000000;
     font-size: 20px;
+    
+  }
+
+  .elt {
+    /* align-items: center; */
+    margin: 0 auto;
   }
   
   /* NAV */
@@ -119,7 +126,5 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
-  
 
 
