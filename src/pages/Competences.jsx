@@ -6,6 +6,7 @@ import SliderButtons from "../components/sliderButtons";
 import "../styles/competences.css"
 import SkillsBar from "../components/SkillsBar";
 import ExperiencePro from "../components/ExperiencePro";
+import Formation from "../components/Formation";
 
 
 const Competences = () => {
@@ -19,6 +20,7 @@ const Competences = () => {
         <SliderButtons left={"/"} right={"/portfolio"}/>
         <SkillsBar />
         <ExperiencePro />
+        <Formation /><br />
       </div>
     </div>
   );
