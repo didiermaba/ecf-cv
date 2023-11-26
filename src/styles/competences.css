@@ -6,7 +6,7 @@
     background-color: #ece7e7;
     margin: 0 auto;
     padding: 15px 20px;
-    margin-top: 10%;
+    margin-top: 7%;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -151,4 +151,28 @@
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%) rotate(45deg);
+}
+/* .elt .home.competences {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+
+} */
+.bloc {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0  auto;
+  margin-top: 3rem; 
+  gap: 2rem;
+
+ 
+}
+.colonne {
+  display: flex;
+  flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+    border-radius: 7px;
 }

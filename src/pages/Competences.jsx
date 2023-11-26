@@ -7,6 +7,7 @@ import "../styles/competences.css"
 import SkillsBar from "../components/SkillsBar";
 import ExperiencePro from "../components/ExperiencePro";
 import Formation from "../components/Formation";
+import Hobbies from "../components/Hobbies";
 
 
 const Competences = () => {
@@ -14,13 +15,18 @@ const Competences = () => {
     <div className="elt">
       <Mouse />
       <Navigation />
-      <div className="home">
+      <div className="home competences">
         <SocialNetWork />
 
         <SliderButtons left={"/"} right={"/portfolio"}/>
         <SkillsBar />
+        <div className="bloc">
         <ExperiencePro />
-        <Formation /><br />
+        <div className="colonne">
+        <Formation />
+        <Hobbies />
+        </div>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,22 @@
+.hobbies {
+    position: relative;
+    width: 100%;
+    background-color: #ece7e7;
+    padding: 15px 25px;
+    border-radius: 7px;
+    flex: 1;
+}
+.hob-title {
+    text-align: center;
+    background-color: #97d6ef;
+    color: #fff;
+    /* font-weight: 400; */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+.hob-item {
+    width: 100%;
+    margin: 15px 0; 
+    padding: 0 15px;
+}

@@ -67,7 +67,7 @@ const Home = () => {
                   </p>
                 <div className="CV">
                 
-                <button><a href="./assets/Didier_Maba_CV (1).pdf" download class="btn"> Télécharger mon CV</a></button>
+                <button><a href="../../public/assets/img/Didier_Maba_CV_Stage_CDA (1).pdf" download class="btn"> Télécharger mon CV</a></button>
             </div>
                 </div>
               </div>
