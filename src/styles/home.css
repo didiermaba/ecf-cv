@@ -121,13 +121,13 @@
 
   }
   .profilePix h5 {
-    margin-top: 30%;
-    color: rgba(103, 102, 102, 0.799);
+    /* margin-top: 30%; */
+    color: #676666cc;
   }
 
   .profilePix p {
     font-size: 24px;
-    color: rgba(103, 102, 102, 0.799);
+    color: #676666cc;
   }
 
   .profilePix span {
@@ -167,4 +167,27 @@
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
+}
+
+.text-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+@media screen and (max-width: 930px ) { 
+  .profilePix {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .main-content {
+    padding: 1.5rem;
+  }
+
+}
+@media screen and (max-width: 700px ) {
+  .profilePix .profile-img {
+    width: 350px;
+  }
 }

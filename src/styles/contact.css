@@ -60,6 +60,9 @@
     }
   }
   
+  .contact .form-container h1 {
+    color: #009be5;
+  }
   .contact .form-container h2 {
     margin-bottom: 50px;
   }
@@ -278,7 +281,7 @@
     }
   }
   
-  .email {
+.email {
     @media screen and (max-width: 540px) {
       grid-area: c;
       font-size: 0.8rem;
@@ -286,36 +289,13 @@
     }
   }
   
-  /* .social-network {
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  @media screen and (max-width: 740px) {
-    .social-network {
-      width: 50%;
-      grid-area: d;
-    }
-  }
-  
-  @media screen and (min-width: 1200px) {
-    .social-network {
-      font-size: 2rem;
-    }
-  } */
-  
-  /* .social-network .content {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  } */
-  
-  .credits {
+
+.credits {
+    width: 100%;
     text-align: center;
   }
   
-  @media screen and (max-width: 740px) {
+@media screen and (max-width: 740px) {
     .credits {
       transform: translateY(20px);
       font-size: 0.7rem;
@@ -324,18 +304,7 @@
     }
   }
   
-  .credits p {
+.credits p {
     font-size: 0.9rem;
   }
-  
-  
-/* .footer {
-    background: lightgreen;
-    height: 80px;
-} */
-/* .main {
-    text-align: left;
-    background: deepskyblue;
-    height: 300px;
-    font-size: 24px;
-} */
+

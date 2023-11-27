@@ -65,7 +65,7 @@ const Contact = () => {
                   </p>
                 </CopyToClipboard>
               </div>
-            </div>
+            </div><br />
             <div className="credits">
             <p>
               Copyright 2023 &middot; Développé par <a href="#">Didier MABA</a>{" "}

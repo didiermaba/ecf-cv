@@ -52,8 +52,8 @@ const Home = () => {
               }}
             >
               <div className="profilePix">
-                <img className="profile-img" src={Pix} alt="..." />
-                <div>
+                <img className="profile-img" src={Pix} alt="..."/>
+                <div className="text-button">
                   <h5>
                     Mon nom est <span> Didier MABA</span>
                   </h5>
@@ -65,12 +65,20 @@ const Home = () => {
                     J'aurais le plaisir de mettre en pratique mes skills et
                     surtout d'apprendre avec vous.{" "}
                   </p>
-                <div className="CV">
-                
-                <button><a href="../../public/assets/img/Didier_Maba_CV_Stage_CDA (1).pdf" download class="btn"> Télécharger mon CV</a></button>
-            </div>
+                  <div className="CV">
+                    <button>
+                      <a
+                        href="../../public/assets/img/Didier_Maba_CV_Stage_CDA (1).pdf"
+                        download
+                        className="btn"
+                      >
+                        {" "}
+                        Télécharger mon CV
+                      </a>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </div><br />
               CONCEPTEUR DEVELOPPEUR D'APPLICATION
             </motion.h1>
             <motion.h2
