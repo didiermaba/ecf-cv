@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import config from "../../config";
 // import { init } from "@emailjs/browser";
@@ -10,15 +10,13 @@ import config from "../../config";
 const ContactForm = () => {
   const form = useRef();
 
-  const emailjs = new emailjs({
-    apiKey: config.REACT_APP_ID , // defaults to process.env["OPENAI_API_KEY"]
-    dangerouslyAllowBrowser: true,
-})
-
   // useEffect(() => {
   //   init(process.env.REACT_APP_ID); // Initialise EmailJS avec l'identifiant chargé depuis les variables d'environnement
   // }, []); // Utilisation d'un useEffect pour appeler init() une seule fois
 
+  useEffect(() => {
+    emailjs.init('YHMH6-Bwqm78rkV87');
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();

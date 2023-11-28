@@ -2,8 +2,8 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Mouse from "../components/Mouse";
 import "../styles/contact.css";
-import SocialNetWork from "../components/socialNetWork";
-import SliderButtons from "../components/sliderButtons";
+import SocialNetWork from "../components/SocialNetWork";
+import SliderButtons from "../components/SliderButtons";
 import ContactForm from "../components/ContactForm";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { motion } from "framer-motion";
@@ -17,14 +17,20 @@ const Contact = () => {
     out: {
       opacity: 0,
       x: 300,
-    }
+    },
   };
   return (
     <div className="elt">
       <Mouse />
       <Navigation />
       <main>
-        <motion.div initial="out" animate="in" exit="out" variants={pageTransition} className="contact">
+        <motion.div
+          initial="out"
+          animate="in"
+          exit="out"
+          variants={pageTransition}
+          className="contact"
+        >
           <SocialNetWork />
           <br />
           <ContactForm />
@@ -65,12 +71,14 @@ const Contact = () => {
                   </p>
                 </CopyToClipboard>
               </div>
-            </div><br />
+            </div>
+            <br />
             <div className="credits">
-            <p>
-              Copyright 2023 &middot; Développé par <a href="#">Didier MABA</a>{" "}
-            </p>
-          </div>
+              <p>
+                Copyright 2023 &middot; Développé par{" "}
+                <a href="#">Didier MABA</a>{" "}
+              </p>
+            </div>
           </div>
         </motion.div>
       </main>
