@@ -1,11 +1,11 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import Mouse from "../components/Mouse";
-import SocialNetwork from "../components/socialNetWork";
+import SocialNetwork from "../components/SocialNetWork";
 import DynamicText from "../components/Dynamictext";
 import "../styles/home.css";
 import { motion } from "framer-motion";
-import SliderButtons from "../components/sliderButtons";
+import SliderButtons from "../components/SliderButtons";
 import Pix from "../../public/media/profilePix.png";
 
 const Home = () => {

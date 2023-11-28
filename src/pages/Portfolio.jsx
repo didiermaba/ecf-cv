@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Navigation from "../components/Navigation";
 import Mouse from "../components/Mouse";
-import SocialNetWork from "../components/socialNetWork";
-import SliderButtons from "../components/sliderButtons";
+import SocialNetWork from "../components/SocialNetWork";
+import SliderButtons from "../components/SliderButtons";
 import {projectsData} from "../components/data/projectsData"
 import "../styles/portfolio.css"
 import { motion } from "framer-motion";
