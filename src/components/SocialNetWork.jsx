@@ -64,7 +64,7 @@ const SocialNetWork = () => {
           onMouseOver={anim}
         >
           <li>
-            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-github"></i>
           </li>
         </a>
       </ul>

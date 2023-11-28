@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { init } from "@emailjs/browser";
+import config from "../../config";
+// import { init } from "@emailjs/browser";
 // import dotenv from "dotenv";
 
 
@@ -9,9 +10,14 @@ import { init } from "@emailjs/browser";
 const ContactForm = () => {
   const form = useRef();
 
-//   useEffect(() => {
-//     init(process.env.REACT_APP_ID); // Initialise EmailJS avec l'identifiant chargé depuis les variables d'environnement
-//   }, []); // Utilisation d'un useEffect pour appeler init() une seule fois
+  const emailjs = new emailjs({
+    apiKey: config.REACT_APP_ID , // defaults to process.env["OPENAI_API_KEY"]
+    dangerouslyAllowBrowser: true,
+})
+
+  // useEffect(() => {
+  //   init(process.env.REACT_APP_ID); // Initialise EmailJS avec l'identifiant chargé depuis les variables d'environnement
+  // }, []); // Utilisation d'un useEffect pour appeler init() une seule fois
 
 
   const sendEmail = (e) => {
@@ -22,7 +28,8 @@ const ContactForm = () => {
       .sendForm(
         "service_sjl87kt",
         "template_jovtcmj",
-        form.current
+        form.current,
+        config.REACT_APP_ID // Utilisation de la clé API depuis la configuration
         // process.env.REACT_APP_ID
       )
       .then(
@@ -46,9 +53,7 @@ const ContactForm = () => {
         }
       );
   };
-
-  // Initialisation de EmailJS
-  init("YHMH6-Bwqm78rkV87");
+ 
 
   return (
     <div className="form-container">
