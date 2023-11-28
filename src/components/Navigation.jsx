@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/navigation.css"
+import Log from "../../public/media/PixNBBGColorMulti.png";
 
 const Navigation = () => {
   const [isActive, setIsActive] = useState("");
@@ -15,7 +16,7 @@ const Navigation = () => {
         <div className="logo">
           <NavLink to="/">
             <img
-              src="../../public/media/PixNBBGColorMulti.png"
+              src={Log}
               alt="logo"
               width="50px"
             />
