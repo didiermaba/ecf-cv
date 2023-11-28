@@ -1,3 +1,5 @@
+import Pict from "../../../public/assets/img/assos.jpg";
+
 export const projectsData = [
   {
     id: 1,
@@ -6,7 +8,7 @@ export const projectsData = [
     languages: ["Html", "CSS", "Php", "Javascript", "MySQL"],
     infos:
       "Une Association à but non lucratif régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre Association Woté Pamodja.",
-    img: "../../../public/assets/img/assos.jpg",
+    img: {Pict},
     link: "http://maba.alwaysdata.net/index.php",
   },
   {
