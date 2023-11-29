@@ -35,7 +35,7 @@ const Contact = () => {
           <br />
           <ContactForm />
 
-          <SliderButtons left={"/portfolio"} />
+          <SliderButtons left={"/"} />
           <div className="contact-infos">
             <div className="address">
               <div className="content">

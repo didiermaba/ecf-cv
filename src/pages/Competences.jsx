@@ -2,7 +2,6 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Mouse from "../components/Mouse";
 import SocialNetWork from "../components/SocialNetWork";
-import SliderButtons from "../components/SliderButtons";
 import "../styles/competences.css";
 import SkillsBar from "../components/SkillsBar";
 import ExperiencePro from "../components/ExperiencePro";
@@ -16,8 +15,6 @@ const Competences = () => {
       <Navigation />
       <div className="home competences">
         <SocialNetWork />
-
-        <SliderButtons left={"/"} right={"/portfolio"} />
         <SkillsBar />
         <div className="bloc">
           <ExperiencePro />
