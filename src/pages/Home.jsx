@@ -5,7 +5,6 @@ import SocialNetwork from "../components/SocialNetWork";
 import DynamicText from "../components/Dynamictext";
 import "../styles/home.css";
 import { motion } from "framer-motion";
-import SliderButtons from "../components/SliderButtons";
 import Pix from "../../public/media/profilePix.png";
 
 const Home = () => {
@@ -95,7 +94,6 @@ const Home = () => {
             </motion.h2>
           </div>
         </div>
-        <SliderButtons right={"/competences"} />
       </motion.div>
     </div>
   );
