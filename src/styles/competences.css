@@ -165,27 +165,25 @@ width: 90%;
 margin: 0  auto;
 margin-top: 3rem; 
 gap: 2rem;
-
-
 }
 .colonne {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   width: 50%;
   gap: 2rem;
   border-radius: 7px;
 }
 @media screen and (max-width: 555px) {
-.title-text, .expe-title, .form-title, .hob-title {
-  font-size: 1.3rem;
-}
-.bloc {
-  display: flex;
-  flex-direction: column;
-}
-.experience, .colonne {
-  width: 100%;
-}
+  .title-text, .expe-title, .form-title, .hob-title {
+    font-size: 1.3rem;
+  }
+  .bloc {
+    display: flex;
+    flex-direction: column;
+  }
+  .experience, .colonne {
+    width: 100%;
+  }
 }  
 @media screen and (max-width: 850px) {
 .title-text, .expe-title, .form-title, .hob-title {
