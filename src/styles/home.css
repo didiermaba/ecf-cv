@@ -49,6 +49,7 @@
 
 .home .home-main .main-content {
   user-select: none;
+  margin-left: 5rem;
 }
 
 .home .home-main .main-content h1 {
@@ -117,7 +118,7 @@
  
 .profilePix {
   display: flex;
-  /* font: 1em sans-serif; */
+  margin-top: 4rem;
 
 }
 .profilePix h5 {
