@@ -42,13 +42,13 @@ const Home = () => {
           <div className="main-content">
             <motion.h1
               drag
-              onDragEnd={() => {}}
-              dragConstraints={{
-                left: -250,
-                right: 950,
-                top: -200,
-                bottom: 250,
-              }}
+              // onDragEnd={() => {}}
+              // dragConstraints={{
+              //   left: -250,
+              //   right: 950,
+              //   top: -200,
+              //   bottom: 250,
+              // }}
             >
               <div className="profilePix">
                 <img className="profile-img" src={Pix} alt="..."/>
