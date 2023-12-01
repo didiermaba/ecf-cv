@@ -181,8 +181,11 @@ gap: 2rem;
     display: flex;
     flex-direction: column;
   }
-  .experience, .colonne {
+  .colonne {
     width: 100%;
+  }
+  .contenaire {
+    margin-top: 3rem;
   }
 }  
 @media screen and (max-width: 850px) {
